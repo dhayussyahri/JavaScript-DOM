@@ -28,8 +28,18 @@
 // *****************************************************************
 // Memahami Innerthtml, Innertext Dan Textcontent
 
-const links = document.querySelectorAll('p a');
+// const links = document.querySelectorAll('p a');
+
+// for (let link of links) {
+//    link.innerText = 'Saya adalah link!';
+// }
+// **************************************************************
+// Melakukan Styling Dengan Javascript Dom
+const links = document.querySelectorAll('a');
 
 for (let link of links) {
-   link.innerText = 'Saya adalah link!';
+   link.style.color = 'rgb(0,100, 134)';
+   link.style.textDecorationColor = 'magenta';
+   link.style.textDecorationStyle = 'wavy';
 }
+
