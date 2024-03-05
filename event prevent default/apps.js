@@ -4,8 +4,12 @@ const input = document.querySelector('input');
 const list = document.querySelector('#notes');
 
 
-input.addEventListener('change', (e) => {
-   console.log('Nilai Berubah');
+// input.addEventListener('change', (e) => {
+//    console.log('Nilai Berubah');
+// });
+
+input.addEventListener('input', (e) => {
+   console.log('Nilai diinput');
 });
 
 
